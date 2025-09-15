@@ -1,3 +1,4 @@
+## Scenario
 <Context>
 World Setup: [Summarize current era/conflict in 1–2 paragraphs.]
 Scenario: [Why {{user}} and {{char}} are together; tension hook in 1–2 paragraphs.]
@@ -110,3 +111,4 @@ Tone descriptors + quirks. Include at least 2 example lines.
   - `gptprompt.md` (global system rules)  
   - `JanitorAIscriptsoverview.md` (script reference)  
   - `LoreburyJSONReadme.md` (Lorebary reference)  
+
