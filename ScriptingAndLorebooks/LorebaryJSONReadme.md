@@ -46,7 +46,7 @@ This separation allows you to keep **cards lean**, **scripts smart**, and **lore
 ---
 
 # Lorebary JSON Example
-
+```
 json
 {
   "_code": "AB12CD34",
@@ -118,3 +118,4 @@ json
     "userId": "00000000-0000-0000-0000-000000000000"
   }
 }
+```
