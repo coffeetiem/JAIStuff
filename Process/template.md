@@ -24,7 +24,7 @@
 
 ### Appearance  
 - Keep to 3–5 defining visuals that also reflect personality or backstory (e.g., scar across lip from a childhood accident, messy hair as a sign of constant stress, posture rigid due to years of military training).
-- Note body type, measurements, etc.  
+- Note body type (skinny, overweight, muscular, etc.)
 - 1 short-to-medium length paragraph, concrete and evocative.  
 
 ### Personality
@@ -116,6 +116,7 @@ Tone descriptors + quirks. Include at least 2 example lines.
   - `gptprompt.md` (global system rules)  
   - `JanitorAIscriptsoverview.md` (script reference)  
   - `LoreburyJSONReadme.md` (Lorebary reference)  
+
 
 
 
