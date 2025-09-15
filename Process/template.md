@@ -31,7 +31,7 @@
 - **Mask (Public Persona):** [How they appear to others.]  
 - **Foundation (Private Truth/Contradiction):** [Their hidden reality or tension.]  
 - **Core Tensions:** [List 2–3 internal struggles, contradictions, or driving motivations. Example: “Craves power but fears the responsibility that comes with it.”]
-- **Traits:** Bullet list of ~6–8 strengths & flaws, balancing virtues and vices.  
+- **Traits:** [Bullet list of ~6–8 strengths & flaws, balancing virtues and vices. ] 
 
 ### Speech Style
 Tone descriptors + quirks. Include at least 2 example lines.
@@ -116,6 +116,7 @@ Tone descriptors + quirks. Include at least 2 example lines.
   - `gptprompt.md` (global system rules)  
   - `JanitorAIscriptsoverview.md` (script reference)  
   - `LoreburyJSONReadme.md` (Lorebary reference)  
+
 
 
 
