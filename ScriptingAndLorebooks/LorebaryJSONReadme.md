@@ -31,7 +31,7 @@ This separation allows you to keep **cards lean**, **scripts smart**, and **lore
   - **disable**: If `true`, entry ignored.  
   - **order**: Priority 1–100 (higher = earlier injection).  
   - **position**: Placement order in prompt (0 = auto).  
-  - **category**: Must be one of: `character`, `place`, `item`, `spell`, `letter`, `backgroundinfo`, `worldinfo`, `rule`, `other`:contentReference[oaicite:2]{index=2}.  
+  - **category**: Must be one of: `character`, `place`, `item`, `spell`, `letter`, `background info`, `world info`, `rule`, `other`.  
 - **meta**: Metadata (title, author, description, timestamps, sharing flags).  
 
 ---
@@ -106,6 +106,7 @@ json
   }
 }
 ```
+
 
 
 
