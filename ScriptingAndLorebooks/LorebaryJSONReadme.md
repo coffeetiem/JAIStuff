@@ -89,19 +89,6 @@ json
       "order": 90,
       "position": 0,
       "category": "place"
-    },
-    "3": {
-      "uid": 3,
-      "key": ["Consent", "Aftercare", "Sex", "Blowjob", "Anal", "Fuck", "Bang"],
-      "keysecondary": ["NSFW", "Safety"],
-      "comment": "Behavior/safety rails.",
-      "content": "Intimacy is allowed only with explicit consent, must be character-driven, and always include aftercare.",
-      "constant": false,
-      "selective": false,
-      "disable": false,
-      "order": 80,
-      "position": 0,
-      "category": "rule"
     }
   },
   "meta": {
@@ -119,5 +106,6 @@ json
   }
 }
 ```
+
 
 
