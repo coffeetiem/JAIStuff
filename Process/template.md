@@ -17,7 +17,7 @@
 - Species/Race:
 - Age: [Always 18+]
 - Gender:
-- Sexuality: [Default demisexual unless otherwise noted]
+- Sexuality:
 - Height/Build:
 - Role/Rank:
 - Archetypes: [1–5 tropes/archetypes for dramatic shorthand]
@@ -116,5 +116,6 @@ Tone descriptors + quirks. Include at least 2 example lines.
   - `gptprompt.md` (global system rules)  
   - `JanitorAIscriptsoverview.md` (script reference)  
   - `LoreburyJSONReadme.md` (Lorebary reference)  
+
 
 
