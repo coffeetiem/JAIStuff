@@ -92,7 +92,7 @@ json
     },
     "3": {
       "uid": 3,
-      "key": ["Rule", "Consent", "Aftercare"],
+      "key": ["Consent", "Aftercare", "Sex", "Blowjob", "Anal", "Fuck", "Bang"],
       "keysecondary": ["NSFW", "Safety"],
       "comment": "Behavior/safety rails.",
       "content": "Intimacy is allowed only with explicit consent, must be character-driven, and always include aftercare.",
@@ -119,4 +119,5 @@ json
   }
 }
 ```
+
 
