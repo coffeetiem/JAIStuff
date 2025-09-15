@@ -26,7 +26,7 @@ When starting a new character build, I typically tell ChatGPT or Gemini to refer
 
 ## Other things to consider
 AI helpers forget context over time. You can mitigate this by:  
-- Re-uploading these reference docs occasionally.  
+- Re-uploading these reference docs occasionally into your chat session with your LLM partner.  
 - Reminding GPT what each file is for during long sessions.  
 
 Also:  
