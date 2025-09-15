@@ -31,6 +31,6 @@ AI helpers forget context over time. You can mitigate this by:
 
 Also:  
 - Vanilla ChatGPT isn’t great at writing scripts by default. I offload script creation to ChatGPT Codex (a coding focused GPT model) connected to GitHub. This workflow produces stronger JavaScript and JSON for advanced use.  
-- Keep your GitHub repo in sync with your evolving characters, scenarios, and worldbuilding, then use prompts like: *“How would you tell ChatGPT Codex to create `X`?”*  
+- Keep your GitHub repo in sync with your evolving characters, scenarios, and worldbuilding, then use prompts like: *“How would you tell ChatGPT Codex to create `X`?”*, then paste that prompt into ChatGPT Codex and merge the generated PRs with your repo.
 
 This way, your workflow balances **creativity in ChatGPT** with **precision in Codex/GitHub**.
