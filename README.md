@@ -1,18 +1,36 @@
 # JAIStuff
 ---
 ## Intro
-I put together this repo to share some of the docs that I have made for my own reference when creating bots, as well as some of what I have used with ChatGPT to make my vision a reality.  A ChatGPT Pro subscription really helps with the JavaScript and JSON side of things, if you're either not knowledgable about that stuff or are dealing with **massive** amounts of info, as it includes access to Codex, which is designed to link to GitHub and help with coding specifically.
+I put together this repo to share some of the docs I use for creating roleplay bots with ChatGPT/Gemini, JanitorAI, and (optionally) Sophia’s Lorebary.  
+
+The goal is to provide a **structured workflow**:  
+- `anchorindex.md` defines the schema and how the docs fit together.  
+- `gptprompt.md` sets the master system context and runtime rules.  
+- Supporting docs (template, DeepseekRails, scripts, Lorebary) provide detail and examples.  
+
+> ⚠️ Note: Bots should always function with **JanitorAI Scripts alone**. Lorebary is middleware for persistence and depth, not a requirement.
+
+---
 
 ## What you should know
-I'm putting a few different reference files on here.  In my process, I tell ChatGPT or Gemini to reference `anchorindex.md` as the master index for how to use these files, and then I attach the following five files to that initial message:
-- `/GPT_Prompts/anchorindex.md` → main document for GPT to reference to understand instructions/schema of documentation
-- `/GPT_Prompts/gptprompt.md` → whereas `anchorindex.md` provides a schema and index on how ChatGPT/Gemini should use the files in conjunction with one another, `gptprompt.md` contains the actual context and instructions for the prompt.
-- `/Process/template.md` → my personal criteria for filling out a template.  Things like "Red Lines & Safety", "Scene Constraints", and "System Notes" all go in the character's personality block for persistence.  This doesn't show up very well in Rich Text, so make sure you click "raw" or download the MD file and open in something like Notepad++ to view it properly.  If you open them in Notepad++, make sure you go to Language→Markdown (preinstalled) to view it properly!
-- `/Process/DeepseekRails.md` → just some best practices for using Deepseek that I like to have GPT integrate into my system block and/or constant scripts.
-- `/ScriptingAndLorebooks/JanitorAIscriptsoverview.md` → You want this.  It gives a good idea schema of *what* scripts are and *how* to write them, including an example of JavaScript at the end for using in advanced mode.
-- `/ScriptingAndLorebooks/LorebaryJSONReadme.md` → This gives a good overview of how to build Lorebooks in [Sophia's Lorebary](https://lorebary.sophiamccarty.com/).  I like to include essential info like NPCs and basic setting stuff in the Janitor scripts as well as constant commands, and then have scripts call out to Lorebary as middleware.  The reason I do this is because I can have Janitor call out to multiple Lorebary keys from within a script, making them nested knowledge.  This is entirely optional--AFAIK, everything can be handled by Janitor scripts, but since I use an OpenRouter free API, I'm not overly concerned with tokens per message. I'm also typically using Lorebary's Memories module for managing my RP history.  As far as scripts+Lorebary, YMMV.
+When starting a new character build, I typically tell ChatGPT or Gemini to reference `anchorindex.md` as the master index and then attach the following files:
+
+- `/GPT_Prompts/anchorindex.md` → Index/schema for how to use all the other docs in combination.  
+- `/GPT_Prompts/gptprompt.md` → Master system prompt with formatting rules, pacing, continuity, and implementation notes.  
+- `/Process/template.md` → Character Card template. Includes personality structure, scene constraints, and system notes. View in raw markdown or an editor like Notepad++ for best results.  
+- `/Process/DeepseekRails.md` → Roleplay rails for DeepSeek v3.1. Covers formatting, continuity beacons, NSFW rules, and golden rules.  
+- `/ScriptingAndLorebooks/JanitorAIscriptsoverview.md` → Core reference for writing and structuring JanitorAI Scripts. Explains both lorebook-style and advanced JavaScript modes, with examples.  
+- `/ScriptingAndLorebooks/LorebaryJSONReadme.md` → Guide for creating JSON lorebooks in Sophia’s Lorebary. Optional middleware for structured lore, NPCs, and rules.  
+
+---
 
 ## Other things to consider
-Remember that, when you're using AI as a helper to build characters and settings, it's going to forget stuff.  You can mitigate this a little bit by asking it to store things in permanent memory, but I've found it to be a good idea to occasionally reupload the reference documents and remind GPT what they're for every so often during our scheming.
+AI helpers forget context over time. You can mitigate this by:  
+- Re-uploading these reference docs occasionally.  
+- Reminding GPT what each file is for during long sessions.  
 
-Also remember that vanilla ChatGPT isn't super-amazing at writing scripts by default.  I blame this on the same memory issue, but I actually don't know that for sure.  Instead, I have GitHub repos for the characters I'm working on that I update as vanilla GPT-5 and I work together on developing character cards, scenarios, and worldbuilding, then ask GPT-5, "how would you tell ChatGPT Codex to create `X`?"  Then I run that prompt over on **ChatGPT Codex** while it's connected to the GitHub repo.  Codex is *fantastic* at this side of things.
+Also:  
+- Vanilla ChatGPT isn’t great at writing scripts by default. I offload script creation to ChatGPT Codex (a coding focused GPT model) connected to GitHub. This workflow produces stronger JavaScript and JSON for advanced use.  
+- Keep your GitHub repo in sync with your evolving characters, scenarios, and worldbuilding, then use prompts like: *“How would you tell ChatGPT Codex to create `X`?”*  
+
+This way, your workflow balances **creativity in ChatGPT** with **precision in Codex/GitHub**.
