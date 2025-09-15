@@ -106,16 +106,17 @@ json
   },
   "meta": {
     "title": "Elara Myles Lorebook",
-    "author": "yourusername",
+    "author": "coffeetiem",
     "description": "Structured lorebook for Elara, NPCs, places, and rules. Middleware used after JanitorAI scripts.",
     "category": "other",
     "public": false,
     "updatedAt": "2025-09-12T00:00:00.000Z",
     "allowDownloads": false,
-    "creatorUsername": "yourusername",
+    "creatorUsername": "coffeetiem",
     "creatorId": "00000000-0000-0000-0000-000000000000",
     "createdAt": "2025-09-12T00:00:00.000Z",
     "userId": "00000000-0000-0000-0000-000000000000"
   }
 }
 ```
+
