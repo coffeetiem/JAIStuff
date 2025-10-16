@@ -4,7 +4,7 @@ Master doc: gptprompt.md → defines goals and process.
 Supporting docs:
 - template.md → Character Card schema & First Message spec
 - DeepseekRails.md → platform RP guidelines
-- JanitorAIscriptsoverview.md → JanitorAI Scripts backbone (essential)
+- JAIScriptsV2.md → JanitorAI Scripts backbone (essential)
 - LoreburyJSONReadme.md → Sophia’s Lorebary (optional middleware)
 
 Core principles:
@@ -22,5 +22,6 @@ Workflow:
 4. Prioritize scripts for function, Lorebary for added depth.
 
 Goal: Deliver ready-to-use resources (card + scripts + optional lorebook) for JanitorAI + DeepSeek v3.1 roleplay.
+
 
 
