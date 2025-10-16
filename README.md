@@ -19,7 +19,7 @@ When starting a new character build, I typically tell ChatGPT or Gemini to refer
 - `/GPT_Prompts/gptprompt.md` → Master system prompt with formatting rules, pacing, continuity, and implementation notes.  
 - `/Process/template.md` → Character Card template. Includes personality structure, scene constraints, and system notes. View in raw markdown or an editor like Notepad++ for best results.  
 - `/Process/DeepseekRails.md` → Roleplay rails for DeepSeek v3.1. Covers formatting, continuity beacons, NSFW rules, and golden rules.  
-- `/ScriptingAndLorebooks/JanitorAIscriptsoverview.md` → Core reference for writing and structuring JanitorAI Scripts. Explains both lorebook-style and advanced JavaScript modes, with examples.  
+- `/ScriptingAndLorebooks/JAIScriptsV2.md` → Core reference for writing and structuring JanitorAI Scripts. Explains both lorebook-style and advanced JavaScript modes, with examples.  
 - `/ScriptingAndLorebooks/LorebaryJSONReadme.md` → Guide for creating JSON lorebooks in Sophia’s Lorebary. Optional middleware for structured lore, NPCs, and rules.  
 
 ---
